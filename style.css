@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@300;400;500&family=Oswald:wght@400;500&family=PT+Serif&family=Playfair+Display&family=Poppins:wght@200&family=Salsa&family=Slabo+27px&display=swap');
+
+body {
+    height: 100vh;
+}
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    }
+    
+    h1, h2, #btnAudio{
+    
+    color: rgba(252, 252, 252, 0.8);
+    /* -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(105,105,105, 0.60);
+     */
+    font-family: 'Salsa';
+    
+    font-weight: normal;
+    
+    text-align: center;
+    
+    }
+    
+    h1 {
+    font-size: 6rem;
+    margin-top: 30vh;
+    }
+    
+    h2 { font-size: 3rem; }
+    
+    #btnAudio{
+    font-size: 1.5rem;
+    background: 0;
+    border: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    }
